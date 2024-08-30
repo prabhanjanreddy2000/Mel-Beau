@@ -1,0 +1,25 @@
+#cat1 :hover{
+    transform: scale(1.01);
+}
+#cat2 :hover{
+    transform: scale(1.01);
+}
+#cat3 :hover{
+    transform: scale(1.01);
+}
+#cat4 :hover{
+    transform: scale(1.01);
+}
+@keyframes brandsAnimation{
+    from{
+        left:100%;
+    }
+    to{
+        left:0%;
+    } 
+}
+#brands{
+    animation: brandsAnimation 10s;
+    position:relative;
+    animation-iteration-count: infinite;
+}
